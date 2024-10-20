@@ -19,10 +19,10 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <FavoritesProvider>
         <ReadLaterProvider>
-          <Router>
+          <Router basename="/react-dummy">
             <NavBar />
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/react-dummy" element={<Home />} />
               <Route path="/favorites" element={<Favorites />} />
               <Route path="/read-later" element={<ReadLater />} />
               <Route path="/book/:id" element={<BookDetail />} />

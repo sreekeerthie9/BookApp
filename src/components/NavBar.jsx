@@ -23,7 +23,7 @@ const StyledNav = styled.nav`
   
   @media (max-width: 768px) {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px;
 
     & a {
